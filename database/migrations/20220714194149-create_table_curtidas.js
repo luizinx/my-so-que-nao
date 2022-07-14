@@ -3,7 +3,7 @@
 module.exports = {
   async up (queryInterface, Sequelize) {
     await queryInterface.createTable(
-      'usuarios',
+      'curtidas',
       {
         id: {
           type: Sequelize.DataTypes.INTEGER,
@@ -11,27 +11,23 @@ module.exports = {
           allowNull: false,
           primaryKey: true
         },
-        nome: {
-          type: Sequelize.DataTypes.STRING(45),
+
+        usuarios_id: {
+          type: Sequelize.DataTypes.INTEGER,
           allowNull: false,
+
         },
-        email: {
-          type: Sequelize.DataTypes.STRING(45),
+
+        publicacoes_id: {
+          type: Sequelize.DataTypes.INTEGER,
           allowNull: false,
-        },
-        senha: {
-          type: Sequelize.DataTypes.STRING(64),
-          allowNull: false,
-        },
-        foto: {
-          type: Sequelize.DataTypes.STRING(45),
-          allowNull: true,
         }
+
       }
     );
   },
 
   async down (queryInterface, Sequelize) {
-    await queryInterface.dropTable('usuarios');
+    await queryInterface.dropTable('curtidas');
   }
 };

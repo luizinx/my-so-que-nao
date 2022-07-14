@@ -3,35 +3,33 @@
 module.exports = {
   async up (queryInterface, Sequelize) {
     await queryInterface.createTable(
-      'usuarios',
+      'amizades',
       {
         id: {
           type: Sequelize.DataTypes.INTEGER,
-          autoIncrement: true,
           allowNull: false,
           primaryKey: true
         },
-        nome: {
-          type: Sequelize.DataTypes.STRING(45),
+
+        usuarios_id1: {
+          type: Sequelize.DataTypes.INTEGER,
           allowNull: false,
         },
-        email: {
-          type: Sequelize.DataTypes.STRING(45),
+
+        usuarios_id2: {
+          type: Sequelize.DataTypes.INTEGER,
           allowNull: false,
         },
-        senha: {
-          type: Sequelize.DataTypes.STRING(64),
+
+        aceita:{
+          type: Sequelize.DataTypes.INTEGER,
           allowNull: false,
-        },
-        foto: {
-          type: Sequelize.DataTypes.STRING(45),
-          allowNull: true,
         }
       }
     );
   },
 
   async down (queryInterface, Sequelize) {
-    await queryInterface.dropTable('usuarios');
+    await queryInterface.dropTable('amizades');
   }
 };
