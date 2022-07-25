@@ -5,37 +5,37 @@ const publicacoes = [
     id:1,
     texto: "Versace é a melhor",
     usuarios_id: 1,
-    foto: "Versace.jpg"
+    imagem: "Versace.jpg"
   },
   {
     id:2,
     texto: "nike é a melhor",
     usuarios_id: 2,
-    foto: "nike.jpg"
+    imagem: "nike.jpg"
   },
   {
     id:3,
     texto: "Adidas é a melhor",
     usuarios_id: 3,
-    foto: "Adidas.jpg"
+    imagem: "Adidas.jpg"
   },
   {
     id:4,
     texto: "shel é a melhor",
     usuarios_id: 4,
-    foto: "shel.jpg"
+    imagem: "shel.jpg"
   },
   {
     id:5,
     texto: "Gucci é a melhor",
     usuarios_id: 5,
-    foto: "Gucci.jpg"
+    imagem: "Gucci.jpg"
   },
   {
     id:6,
     texto: "tommy é a melhor",
     usuarios_id: 6,
-    foto: "tommy.jpg"
+    imagem: "tommy.jpg"
   },
 ]
 

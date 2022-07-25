@@ -19,11 +19,13 @@ module.exports = {
         references: {
           model:{
             tableName: "usuarios"
+           
           },
-          key:"id"
+            key: "id"
+          
         }
       },
-      foto: {
+      imagem: {
         type: Sequelize.DataTypes.STRING(45),
         allowNull: true,
       },

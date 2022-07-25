@@ -9,7 +9,7 @@ const usuarios = [
     nome: "Snoop dog smith",
     email:"contattosnoop@teste.com",
     senha:bcrypt.hashSync("123456", 10),
-    foto: "snoop.jpg"
+    imagem: "snoop.jpg"
 
   },
   {
@@ -17,7 +17,7 @@ const usuarios = [
     nome: "50cent Chavante",
     email:"contattochavante@teste.com",
     senha:bcrypt.hashSync("125456", 10),
-    foto: "50cent.jpg"
+    imagem: "50cent.jpg"
 
   },
   {
@@ -25,7 +25,7 @@ const usuarios = [
     nome: "Eminem speed",
     email:"contattospeed@teste.com",
     senha:bcrypt.hashSync("123656", 10),
-    foto: "speed.jpg"
+    imagem: "speed.jpg"
 
   }
 ]
