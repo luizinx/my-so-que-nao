@@ -6,19 +6,19 @@ const amizades = [
     id:1,
     usuarios_id1:1,
     usuarios_id2:2,
-    aceita: "sim"
+    aceita: true
   },
   {
     id:2,
     usuarios_id1:2,
     usuarios_id2:1,
-    aceita: "não"
+    aceita: false
   },
   {
     id:3,
     usuarios_id1:3,
     usuarios_id2:2,
-    aceita: "sim"
+    aceita: true
   },
 ]
 

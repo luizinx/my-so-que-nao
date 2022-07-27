@@ -22,19 +22,19 @@ const publicacoes = [
   {
     id:4,
     texto: "shel é a melhor",
-    usuarios_id: 4,
+    usuarios_id: 3,
     imagem: "shel.jpg"
   },
   {
     id:5,
     texto: "Gucci é a melhor",
-    usuarios_id: 5,
+    usuarios_id: 2,
     imagem: "Gucci.jpg"
   },
   {
     id:6,
     texto: "tommy é a melhor",
-    usuarios_id: 6,
+    usuarios_id: 3,
     imagem: "tommy.jpg"
   },
 ]
