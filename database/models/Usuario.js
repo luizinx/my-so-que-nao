@@ -1,6 +1,6 @@
 module.exports = (sequelize, DataTypes) => {
     return sequelize.define(
-        "Usuarios",
+        "Usuario",
         {
             
             id: {
@@ -21,7 +21,7 @@ module.exports = (sequelize, DataTypes) => {
                 type:DataTypes.STRING(64),
                 allowNull: false,
             },
-            foto: {
+            imagem: {
                 type:DataTypes.STRING(45),
                 allowNull: true,
             }
